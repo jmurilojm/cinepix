@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Vídeo</title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+
+<body>
+    <h1 id="titulo"></h1>
+    <video id="videoPlayer" controls width="" height=""></video>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const videoLink = urlParams.get('link');
+        const titulo = urlParams.get('nome');
+
+        // Atualiza o título da página com o nome do filme
+        document.getElementById('titulo').textContent = titulo;
+
+        const video = document.getElementById('videoPlayer');
+
+        if (Hls.isSupported()) {
+            const hls = new Hls();
+            hls.loadSource(videoLink);
+            hls.attachMedia(video);
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = videoLink;
+        }
+
+
+        // definindo tamanho de tela
+        function enquadrarVideo() {
+            if (window.innerWidth < window.innerHeight) {
+                let larguraTela = document.querySelector('body').clientWidth;
+                let alturaProporcional = (larguraTela * 9) / 16;
+
+                video.style.width = larguraTela + 'px';
+                video.style.height = alturaProporcional + 'px';
+
+            } else {
+                video.style.height = '100vh';
+                video.style.width = '100%';
+            }
+        }
+        window.addEventListener('load', enquadrarVideo);
+        window.addEventListener('resize', enquadrarVideo);
+    </script>
+</body>
+
+</html>
