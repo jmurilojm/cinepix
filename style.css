@@ -1,7 +1,14 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
 
 header {
@@ -11,34 +18,53 @@ header {
   
   position: fixed;
   width: 100%;
-  padding: 5px 0;
+  padding: 15px 0;
+  z-index: 1;
 }
 
-h1{
+header h1{
   color: red;
+  margin-bottom: 15px;
 }
 
-h2{
+header h2{
   color: lightgray;
+}
+
+header p{
+  color: lightgray;
+}
+
+header a{
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  font-size: 10px;
+}
+
+header i{
+  color: white;
+  font-size: 20px;
 }
 
 section{
   padding: 10px 0;
-  margin: 80px 0 30px 0;
+  margin: 140px 0 30px 0;
 }
 
-ul{
+section ul{
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
-li{
+section li{
   width: 30%;
   text-align: center;
+  position: relative;
 }
-p{
+section p{
   background-color: black;
   color: white;
   padding: 5px;
@@ -46,7 +72,7 @@ p{
   border-radius: 0 0 10px 10px;
 }
 
-img {
+section img {
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
@@ -60,15 +86,27 @@ footer{
   padding: 5px;
 }
 footer a{
-  text-decoration: none;
   color: red;
   font-size: 14px;
+}
+
+.ano{
+  position: absolute;
+  top: 0;
 }
 
 
 
 @media screen and (min-width: 768px) {
-  li{
+  header a{
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+  }
+  header i{
+    font-size: 24px;
+  }
+  section li{
     width: 10%;
   }
 }
