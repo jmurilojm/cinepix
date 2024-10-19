@@ -42,4 +42,3 @@ listaDeFilmes.forEach(filme => {
   catalogo.appendChild(li);
 });
 
-alert('Bem-vindo!');
