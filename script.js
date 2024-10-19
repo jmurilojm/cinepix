@@ -5,7 +5,7 @@ listaDeFilmes.forEach(filme => {
 
   li.addEventListener('click', e => {
     let idDaImagemClicada = e.target['id'];
-    let usuario = Number(prompt('Senha:'));
+    let usuario = prompt('Senha:');
 
     listaDeFilmes.forEach(filme => {
       if(filme.id === idDaImagemClicada){
