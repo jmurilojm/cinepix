@@ -1,4 +1,4 @@
-let adm = 1001;
+let adm = '1001';
 const figura = `<i class="bi bi-play-fill"></i>`;
 
 const listaDeFilmes = [
