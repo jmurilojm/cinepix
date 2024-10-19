@@ -31,7 +31,6 @@ listaDeFilmes.forEach(filme => {
 
   const link = document.createElement('a');
   link.href = `player.html?link=${encodeURIComponent(filme.link)}&nome=${encodeURIComponent(filme.nome)}`;
-  //link.target = '_blank';  // Abrir em nova aba
   link.appendChild(img);
 
   li.appendChild(link);
