@@ -17,7 +17,9 @@
         const videoLink = urlParams.get('link');
         const titulo = urlParams.get('nome');
 
+        // Atualiza o título da página com o nome do filme
         document.getElementById('titulo').textContent = titulo;
+
         const video = document.getElementById('videoPlayer');
 
         if (Hls.isSupported()) {
@@ -29,6 +31,7 @@
         }
 
 
+        // definindo tamanho de tela
         function enquadrarVideo() {
             if (window.innerWidth < window.innerHeight) {
                 let larguraTela = document.querySelector('body').clientWidth;
