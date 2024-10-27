@@ -4,6 +4,15 @@ const figura = `<i class="bi bi-play-fill"></i>`;
 const listaDeFilmes = [
   {
     id: `${Math.floor(Math.random() * 10000)}`,
+    nome: 'Venom: A Última Rodada (HDCAM)',
+    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/YTU5MjU5MTMtNmExMS00M2JmLWIyOTQtNTYwZjNjOTllODgz.m3u8',
+    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/12991.jpg',
+    ano: 2024,
+    icone: figura,
+    usuarios: [adm]
+  },
+  {
+    id: `${Math.floor(Math.random() * 10000)}`,
     nome: 'A Caverna Azul',
     link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/ODAyY2ZkNDctMmM5OS00YzkyLTk0MjQtNDNlMWRkMGEwYzZk.m3u8',
     imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/12938.jpg',
