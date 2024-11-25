@@ -4,6 +4,96 @@ const figura = `<i class="bi bi-play-fill"></i>`;
 const listaDeFilmes = [
   {
     id: `${Math.floor(Math.random() * 10000)}`,
+    nome: 'Gladiador 2 (HDCAM)',
+    link: 'https://vz-58099e5d-dc6.b-cdn.net/bcdn_token=ire_i14vH53P14c0kuVyofcUZEwkqpvZHCh__-LOoT8&expires=1732573845&token_path=%2F/bdbc45cd-999d-4fd6-af09-d239260556e4/480p/video.m3u8',
+    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/13221.jpg',
+    ano: 2024,
+    icone: figura,
+    usuarios: [adm]
+  },
+  {
+    id: `${Math.floor(Math.random() * 10000)}`,
+    nome: 'Operação Natal (HDCAM)',
+    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/NTZjMWQzMGEtYWQ5ZC00NTZkLWI5NGYtYWEyMTVhZmU5NGNj.m3u8',
+    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/13164.jpg',
+    ano: 2024,
+    icone: figura,
+    usuarios: [adm]
+  },
+  {
+    id: `${Math.floor(Math.random() * 10000)}`,
+    nome: 'Enfeitiçados',
+    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/MmNjMGRlYzUtODYzMC00ZmY0LWIwYzktMmIwZWI4Y2M1N2E4.m3u8',
+    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/13303.jpg',
+    ano: 2024,
+    icone: figura,
+    usuarios: [adm]
+  },
+  {
+    id: `${Math.floor(Math.random() * 10000)}`,
+    nome: 'Apocalipse Z: O Princípio do Fim',
+    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/NzQ3NzMwOWItM2FjMC00ZTBkLWE0ODktNDQyMGNkODFjMzlj.m3u8',
+    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/13051.jpg',
+    ano: 2024,
+    icone: figura,
+    usuarios: [adm]
+  },
+  {
+    id: `${Math.floor(Math.random() * 10000)}`,
+    nome: '1992',
+    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/MDY1ZGQ2NGYtNjgyMi00N2JiLTlmNzAtMjM5MjI0ZDA1ODlk.m3u8',
+    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/13313.jpg',
+    ano: 2024,
+    icone: figura,
+    usuarios: [adm]
+  },
+  {
+    id: `${Math.floor(Math.random() * 10000)}`,
+    nome: 'Wicked (HDCAM)',
+    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/OWRiYThmNDEtZDIxMS00ODA1LWI4ZDQtZjkxNWQ4YTk4NzBl.m3u8',
+    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/13283.jpg',
+    ano: 2024,
+    icone: figura,
+    usuarios: [adm]
+  },
+  {
+    id: `${Math.floor(Math.random() * 10000)}`,
+    nome: '65: Ameaça Pré-Histórica',
+    link: 'http://vods.conexao-vs.live:80/movie/30012.mp4',
+    imagem: 'https://image.tmdb.org/t/p/w300//uwAUZ2yD6mgQl2lhuEkRDpl5lmR.jpg',
+    ano: 2023,
+    icone: figura,
+    usuarios: [adm]
+  },
+  {
+    id: `${Math.floor(Math.random() * 10000)}`,
+    nome: 'GTMAX',
+    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/M2FlYTAzYjgtZjA5Yy00ZmQxLTk0MTItNmQ4OWI3NGQ5ODQz.m3u8',
+    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/13270.jpg',
+    ano: 2024,
+    icone: figura,
+    usuarios: [adm]
+  },
+  {
+    id: `${Math.floor(Math.random() * 10000)}`,
+    nome: 'Sorria 2',
+    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/YWYyZmY4OWEtMjhiMC00ZmZhLWI3MGEtNWRhYjNkOWY1OGMx.m3u8',
+    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/12992.jpg',
+    ano: 2024,
+    icone: figura,
+    usuarios: [adm]
+  },
+  {
+    id: `${Math.floor(Math.random() * 10000)}`,
+    nome: 'Descendentes 2',
+    link: 'http://vods.conexao-vs.live:80/movie/38151.mp4',
+    imagem: 'https://image.tmdb.org/t/p/w300//5jGEBYg13Sa1J3D6KOlQ2EH8Uxg.jpg',
+    ano: 2017,
+    icone: figura,
+    usuarios: [adm]
+  },
+  {
+    id: `${Math.floor(Math.random() * 10000)}`,
     nome: 'Venom: A Última Rodada (HDCAM)',
     link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/YTU5MjU5MTMtNmExMS00M2JmLWIyOTQtNTYwZjNjOTllODgz.m3u8',
     imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/12991.jpg',
@@ -40,18 +130,18 @@ const listaDeFilmes = [
   },
   {
     id: `${Math.floor(Math.random() * 10000)}`,
-    nome: 'Terrifier 3 / Aterrorizante 3 (HDCAM)',
-    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/NmYyNGI3ZTYtMjA3My00NTIzLTkyZmMtMWZhNDI2YzE2MGVi.m3u8',
-    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/12881.jpg',
+    nome: 'Tigres e Hienas',
+    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/NmI3NWNiYmQtMWYyMi00YTZkLTkyNDUtM2E0YTc5NjI5NDEy.m3u8',
+    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/13300.jpg',
     ano: 2024,
     icone: figura,
     usuarios: [adm]
   },
   {
     id: `${Math.floor(Math.random() * 10000)}`,
-    nome: 'Reality de Horror - Influencers em Pânico',
-    link: 'https://space.vscine.biz/filmes/AmpHouseMassacre/playlist.m3u8',
-    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/12157.jpg',
+    nome: 'Robô Selvagem',
+    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/ZTkzZDZjYjUtZmRjYy00ODU5LThmZjQtMThiMDhjNThkNTY3.m3u8',
+    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/12752.jpg',
     ano: 2024,
     icone: figura,
     usuarios: [adm]
@@ -76,9 +166,9 @@ const listaDeFilmes = [
   },
   {
     id: `${Math.floor(Math.random() * 10000)}`,
-    nome: 'Robô Selvagem (HDCAM)',
-    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/YjY4ZjYxMjktNmJjZi00MDgzLThmNTAtNWU3NDFhZjg4ODc1.m3u8',
-    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/12752.jpg',
+    nome: 'A Substância',
+    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/NmRlNWM4Y2YtN2YyZi00YTVlLWE1NTgtYzVmOTYyNzgyZjdj.m3u8',
+    imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/13181.jpg',
     ano: 2024,
     icone: figura,
     usuarios: [adm]
@@ -94,8 +184,8 @@ const listaDeFilmes = [
   },
   {
     id: `${Math.floor(Math.random() * 10000)}`,
-    nome: 'Transformers: O Início (HDCAM)',
-    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/YTZlNjI2YTYtNjhmYy00MWE2LTkwOWEtZGE5NTljZTUxMGMy.m3u8',
+    nome: 'Transformers: O Início',
+    link: 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/NDFhMzM3YjEtNTM5Ni00Y2VlLTlmNTgtYTRlYzViZTU1Yzc5.m3u8',
     imagem: 'https://cdn.syncdev.com.br//uploads/video_thumb/12713.jpg',
     ano: 2024,
     icone: figura,
