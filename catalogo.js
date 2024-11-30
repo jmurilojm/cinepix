@@ -1,7 +1,16 @@
-let adm = '1001';
+let adm = '1010';
 const figura = `<i class="bi bi-play-fill"></i>`;
 
 const listaDeFilmes = [
+  {
+    id: `${Math.floor(Math.random() * 10000)}`,
+    nome: 'A Máscara de Ferro',
+    link: 'http://vods.conexao-vs.live:80/movie/38055.mp4',
+    imagem: 'https://image.tmdb.org/t/p/w300//f4TV8H3kQQdzXtAXPRDCzLILKIy.jpg',
+    ano: 2019,
+    icone: figura,
+    usuarios: [adm]
+  },
   {
     id: `${Math.floor(Math.random() * 10000)}`,
     nome: 'Gladiador 2 (HDCAM)',
